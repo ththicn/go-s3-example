@@ -1,2 +1,9 @@
-# go-s3-example
-Example of using aws-sdk-go-v2 to manipulate s3
+# Overview
+
+- Object copy from S3 bucket YOUR_AWS_BUCKET/source/ to YOUR_AWS_BUCKET/dest/.
+
+## Run
+
+```bash
+go run main.go --profile YOUR_AWS_PROFILE
+```
